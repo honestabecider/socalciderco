@@ -53,7 +53,7 @@ a:active {color: #3986E5;
     -webkit-margin-before: 10px;
     text-align: center;
     font-size: 1.8em;
-    font-family: sans-serif;
+    font-family: 'Nanum Gothic Coding', monospace;;
 }
 #header h1 a {
     padding: 0px 12px;
