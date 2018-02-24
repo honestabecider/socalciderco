@@ -7,12 +7,14 @@ a:hover {color: #fcd017;
 a:active {color: #3986E5;
 }
 
-
-#myVideo {
+#vBGContainer {
+  width: 100%;
+}
+#videoBackground {
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
 }
 #container {
