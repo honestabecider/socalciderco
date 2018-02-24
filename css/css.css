@@ -57,6 +57,7 @@ a:active {color: #3986E5;
 }
 #header h1 a {
     padding: 0px 12px;
+    text-decoration-line: none;
 }
 #social {
     width: 15%;
