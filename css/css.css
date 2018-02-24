@@ -79,3 +79,12 @@ a:active {color: #3986E5;
     margin: auto;
     text-align: center;
 }
+#blerb{
+  font-family: 'Ariel', sans-serif;
+  font-size: 1rem;
+  border-width: 5px
+  border-color: lightblue;
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+}
