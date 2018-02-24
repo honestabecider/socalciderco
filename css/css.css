@@ -11,7 +11,7 @@ a:active {color: #3986E5;
   width: 100%;
 }
 #videoBackground {
-    position: fixed;
+    position: relative;
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -82,9 +82,11 @@ a:active {color: #3986E5;
 #blerb{
   font-family: 'Ariel', sans-serif;
   font-size: 1rem;
-  border-width: 5px
+  border-width: 8px;
   border-color: lightblue;
-  width: 100%;
-  padding: 10px;
-  margin: auto;
+  border-style: solid;
+  text-align: center;
+  padding: 20px;
+  width: 85%;
+  margin: 20px auto;
 }
