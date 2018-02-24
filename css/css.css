@@ -9,13 +9,18 @@ a:active {color: #3986E5;
 
 #vBGContainer {
   width: 100%;
+    position: relative;
+    height: 720px;
 }
 #videoBackground {
-    position: relative;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      min-width: 100%;
+      min-height: 100%;
+      display: flex;
+      align-content: center;
+      justify-content: center;
 }
 #container {
 	position: fixed;
