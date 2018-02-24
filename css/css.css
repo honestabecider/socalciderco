@@ -94,3 +94,15 @@ a:active {color: #3986E5;
   width: 85%;
   margin: 20px auto;
 }
+#blerbContainer1 {
+  margin: auto;
+}
+#leftFloatBlerb {
+  float: left;
+  width: 45%;
+}
+#rightFloatBleb{
+  float: left;
+  width: 45%;
+
+}
