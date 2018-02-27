@@ -6,7 +6,11 @@ a:hover {color: #fcd017;
 }
 a:active {color: #3986E5;
 }
-
+@media (max-width: 767px) {
+  #vBGContainer {
+    display: none;
+  }
+}
 #vBGContainer {
   width: 100%;
     height: 800px;
