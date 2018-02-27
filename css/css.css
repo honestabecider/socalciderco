@@ -44,7 +44,7 @@ a:active {color: #3986E5;
 }
 #logo {
     width: 90px;
-    position: fixed;
+    position: absolute;
     bottom: auto;
     padding: 3px 10px;
 }
