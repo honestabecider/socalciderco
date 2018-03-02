@@ -122,36 +122,40 @@ a:active {color: #3986E5;
   width: 420px;
   float:left;
   }
-#ourciderPicContainer{
+#ourCiderPicContainer{
   float: left;
+  margin: auto;
+  width: 400px
 }
 #ourCiderPic1 {
-  background-image: ;
+  background-image:url(/images/DSC_0339.JPG) ;
   background-size: contain;
   background-repeat: no-repeat;
   margin: auto
   }
-#ourciderPic2{
-  background-image:;
+#ourCiderPic2{
+  background-image:url(/images/DSC_0362.JPG);
   background-size: contain;
   background-repeat: no-repeat;
   clear: both;
   margin: auto;
   }
 #ourciderPic2{
-  background-image:;
+  background-image:url(/images/DSC_0310.JPG);
   background-size: contain;
   background-repeat: no-repeat;
   float: left;
   }
 #blerbContainer1 {
   margin: auto;
+  clear: both;
+  width: 90%;
 }
 #leftFloatBlerb {
   float: left;
-  width: 45%;
+  width: 48%;
 }
 #rightFloatBleb{
   float: left;
-  width: 45%;
+  width: 48%;
 }
