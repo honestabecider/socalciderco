@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 a:link {color: #3986E5;
 }
 a:visited {color: #3986E5;
@@ -100,7 +104,7 @@ a:active {color: #3986E5;
 
 }
 #bottles-content{
-  
+
 }
 #blerb{
   font-family: 'Ariel', sans-serif;
