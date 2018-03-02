@@ -122,12 +122,14 @@ a:active {color: #3986E5;
   text-align: center;
   width: 420px;
   float:left;
+  margin: 3px;
   }
 #ourCiderPicContainer{
   float: left;
   margin: auto;
   width: 310px;
   height:100%;
+  margin: 3px;
 }
 #ourCiderPic1 {
   background-image:url(/images/DSC_0339.JPG) ;
@@ -152,7 +154,8 @@ a:active {color: #3986E5;
   background-repeat: no-repeat;
   float: left;
   height: 100%;
-  width: 310px;
+  width: 234px;
+  margin: 3px;
   }
 #blerbContainer1 {
   margin: auto;
