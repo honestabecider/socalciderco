@@ -145,6 +145,15 @@ a:active {color: #3986E5;
     height: 100%;
     display: inline-block;
   }
+#comingSoon{
+  background-image: url(/images/comingsoon.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 600px;
+  width:100%;
+  margin: 5px 0px
+}
 #blerbContainer1 {
   margin: auto;
   clear: both;
