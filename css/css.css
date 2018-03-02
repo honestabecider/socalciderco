@@ -32,7 +32,6 @@ a:active {color: #3986E5;
     width: 100%;
     margin: 0px auto;
     background-image: url(/images/sand.png);
-    height: 130px
 }
 .sticky {
   position: fixed;
@@ -102,7 +101,7 @@ a:active {color: #3986E5;
   min-width: 100%;
   height: 800px;
   background-position: center;
-  background-size: 2500.px
+  background-size: 2500px
 }
 #bottles-content{
 
