@@ -21,7 +21,7 @@ a:active {color: #3986E5;
 #videoBackground {
       right: 0;
       top: 0;
-      min-width: 100%;
+      width: 100%;
       min-height: 100%;
       display: flex;
       align-content: center;
