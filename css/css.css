@@ -113,6 +113,7 @@ a:active {color: #3986E5;
   padding: 20px;
   width: 100%;
   margin: 20px;
+  height: 600px;
 }
 #ourCiderBlerb {
   border-width: 8px;
@@ -125,13 +126,16 @@ a:active {color: #3986E5;
 #ourCiderPicContainer{
   float: left;
   margin: auto;
-  width: 400px
+  width: 310px;
+  height:100%;
 }
 #ourCiderPic1 {
   background-image:url(/images/DSC_0339.JPG) ;
   background-size: contain;
   background-repeat: no-repeat;
-  margin: auto
+  margin: auto;
+  width: 100%;
+  height: 50%;
   }
 #ourCiderPic2{
   background-image:url(/images/DSC_0362.JPG);
@@ -139,12 +143,16 @@ a:active {color: #3986E5;
   background-repeat: no-repeat;
   clear: both;
   margin: auto;
+  width: 100%;
+  height: 50%;
   }
-#ourciderPic2{
+#ourciderPic3{
   background-image:url(/images/DSC_0310.JPG);
   background-size: contain;
   background-repeat: no-repeat;
   float: left;
+  height: 100%;
+  width: 310px;
   }
 #blerbContainer1 {
   margin: auto;
