@@ -142,7 +142,7 @@ a:active {color: #3986E5;
     background-size: contain;
     background-repeat: no-repeat;
     width: 234px;
-    height: 310px;
+    height: 100%;
     display: inline-block;
   }
 #blerbContainer1 {
