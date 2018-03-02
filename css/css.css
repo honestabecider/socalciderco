@@ -44,7 +44,7 @@ a:active {color: #3986E5;
     width: 100%;
     margin: auto;
     background-color: white;
-    background-image: url(images/sand.png);
+    background-image: url(/images/sand.png);
 }
 #logo {
     width: 90px;
@@ -95,6 +95,12 @@ a:active {color: #3986E5;
     clear: both;
     margin: auto;
     text-align: center;
+}
+#bottles {
+
+}
+#bottles-content{
+  
 }
 #blerb{
   font-family: 'Ariel', sans-serif;
