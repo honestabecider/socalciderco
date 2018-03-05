@@ -11,6 +11,12 @@ a:hover {color: #fcd017;
 a:active {color: #3986E5;
 }
 @media (max-width: 767px) {
+  #container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
   #vBGContainer {
     display: none;
   }
@@ -34,13 +40,13 @@ a:active {color: #3986E5;
     background-image: url(/images/sand.png);
     height: 58px;
 }
-.sticky {
+.stuck {
   position: fixed;
   top: 0;
   right: 0;
-  width: 100%
+  width: 100%;
 }
-.sticky + #bottles {
+.stuck + #bottles {
   padding-top: 70px;
 }
 #navbar {
