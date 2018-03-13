@@ -5,16 +5,22 @@ var $stickyElement = $('#container');
 
 
 function init() {
-  console.warn('init!');
   initSticky();
+  initMobileNav();
 }
 
 
 
-function initSticky(){
-  console.warn('initSticky()!');
+function initMobileNav() {
+  $hamburger = $('#hamburger');
 
+  $hamburger.on('click', function(){
+      $stickyElement.toggleClass('mobile-open');
+  });
+}
+
+function initSticky(){
   var sticky = new Waypoint.Sticky({
-  element: $stickyElement[0]
-})
+    element: $stickyElement[0]
+  });
 }
