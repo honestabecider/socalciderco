@@ -10,16 +10,68 @@ a:hover {color: #fcd017;
 }
 a:active {color: #3986E5;
 }
+#hamburger{
+  display: none;
+  position: relative;
+  z-index: 99;
+  font-size: 1.5em;
+}
 @media (max-width: 767px) {
+  #navbar{
+    position: fixed;
+    top: -100%;
+    height: 50%;
+    transition: top 350ms ease-in-out;
+    background-image: url(/images/sand.png);
+  }
+  #container.mobile-open #navbar{
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+  }
+  #container.mobile-open #header {
+    height: 80%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #container.mobile-open #social {
+    min-width: 125px;
+    font-size: 1em;
+    text-align: center;
+
+  }
+  #hamburger{
+    display: block;
+    transform: rotate(90deg);
+    z-index: 99;
+    margin: 1em;
+  }
   #container {
     position: fixed;
     top: 0;
     right: 0;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   #vBGContainer {
     display: none;
   }
+  #logo {
+    z-index: 100;
+  }
+}
+@media (min-width: 768px) {
+  #header {
+    display: flex;
+    justify-content: space-around;
+  }
+
 }
 #vBGContainer {
   width: 100%;
