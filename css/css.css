@@ -151,6 +151,7 @@ a:active {color: #3986E5;
   background-position: center;
   background-size: 1000px;
   background-repeat: no-repeat;
+  margin-top: 10px;
 }
 #bottles-content{
   border: 7px solid white;
