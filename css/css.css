@@ -78,7 +78,7 @@ a:active {color: #3986E5;
     font-size: 1.12em;
   }
   #bottles-content p {
-    font-size: .6em;
+    font-size: .8em;
   }
 }
 @media (min-width: 768px) {
@@ -188,7 +188,7 @@ a:active {color: #3986E5;
   color: white;
 }
 #bottles-content p {
-  margin: 4px;
+  margin: 4px 0;
   font-family: sans-serif;
   color: red;
 }
