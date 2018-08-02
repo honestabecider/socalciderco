@@ -12,7 +12,9 @@ font-family: 'Sriracha', cursive;
 body {
 	background-image: url(/images/socalmenubg.png);
 	background-color: #000000;
-	background-size: cover;
+	background-size: 80%;
+  background-position-x: center;
+  background-repeat: no-repeat;
 	overflow: hidden;
 	color: #FFFFFF;
 	font-size: 16px;
@@ -99,7 +101,7 @@ table thead{
 	background-color: rgba(153,153,153,.3);
 	padding: 0px;
 	margin: auto;
-	font-size: 1.15em;
+	font-size: 1.25em;
 
 }
 table thead th{
