@@ -1,0 +1,12 @@
+#dynamic-menu table {
+	margin-left: auto;
+	margin-right:auto;
+
+}
+#dynamic-menu table th:first-child,
+#dynamic-menu table td:first-child{
+	width: 60%;
+}
+.dynamictableRightColumn {
+	text-align: right;
+}
