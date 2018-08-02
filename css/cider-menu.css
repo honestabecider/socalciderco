@@ -10,13 +10,13 @@ font-family: 'Sriracha', cursive;
 */
 
 body {
-	background-image: url(/images/background.jpg);
+	background-image: url(/images/socalmenubg.png);
 	background-color: #000000;
 	background-size: cover;
 	overflow: hidden;
 	color: #FFFFFF;
 	font-size: 16px;
-	  font-family: 'Nanum Gothic Coding', monospace;
+	font-family: 'Nanum Gothic Coding', monospace;
 
 }
 hr {
@@ -60,12 +60,12 @@ img {
 	flex-wrap: wrap;
 }
 #leftColumn {
-	width: 49%;
+	width: 50%;
 	margin: auto;
 }
 
 #rightColumn {
-		width: 49%;
+		width: 50%;
 		margin: auto;
 }
 
