@@ -289,13 +289,13 @@ p {
   background-repeat: no-repeat;
   width: 100%;
   margin: 0px;
-  padding: 5px;
+  padding: 5px 0px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
   #textbody{
-    width: 300px;
+    width: 375px;
     height: 550px;
     margin: auto;
     padding: 3px;
@@ -304,15 +304,15 @@ p {
     background-color: rgba(20, 20, 20, .2);
     color: #ffffff;
     font-family: sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 1.25;
   }
     #textbody p {
-
+    margin: 12px auto;
     }
 
   #pic1 {
-    width: 300px;
+    width: 375px;
     height: 550px;
     margin: auto;
     background-color: blue;
@@ -327,11 +327,11 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     height: 550px;
-    width: 300px;
+    width: 375px;
     flex-grow: 1;
   }
     #pic2 {
-      width: 300px;
+      width: 375px;
       height: 270px;
       margin: auto;
       background-color: red;
@@ -339,7 +339,7 @@ p {
     }
 
     #pic3 {
-      width: 300px;
+      width: 375px;
       height: 270px;
       margin: auto;
       background-color: green;
