@@ -8,8 +8,8 @@ var PRODUCT_CONTENT_TYPE_ID = 'menu'
 
 var leftContainer = document.getElementById('left-container');
 var rightContainer = document.getElementById('right-container');
-var rightContainer = document.getElementById('beer1-container');
-var rightContainer = document.getElementById('beer2-container');
+var beer1Container = document.getElementById('beer1-container');
+var beer2Container = document.getElementById('beer2-container');
 var drinks = [];
 
 

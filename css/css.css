@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url(../images/tapbackground.jpg);
+  background-image: url(../images/clouds2.jpg);
 }
 
 a:link {color: #3986E5;
@@ -68,13 +68,8 @@ a:active {color: #3986E5;
     z-index: 100;
   }
   #goodfun {
-    background-position: -50px 50px;
-    background-size: 1000px
   }
   #goodfun-content {
-    top: 48px;
-    position: relative;
-    margin-top: 0;
   }
 h2 {
     font-size: 1.12em;
@@ -85,6 +80,9 @@ p {
   #section2{
     background-position: center;
     background-size: 1000px
+  }
+  #section3{
+    font-size: 5em;
   }
   #section4{
     background-position: center;
@@ -109,6 +107,9 @@ p {
   #section2{
     background-position: -500px -200px;
     background-size: 1900px
+  }
+  #section3{
+    font-size: 6em;
   }
   #section4{
     background-position: center;
@@ -173,14 +174,16 @@ p {
 }
 #social {
     width: 15%;
+    height: 100%;
     min-width: 125px;
     float: right;
     font-size: 1em;
-    margin: 21px 5px;
     text-align: right;
+    display: flex;
+    flex-direction: row;
 }
 #social a {
-
+  margin: auto;
 }
 #social a img {
     width: 30px;
@@ -196,12 +199,14 @@ p {
   flex-wrap: wrap;
 }
 #goodfun-content{
+  box-sizing: border-box;
   border: 7px solid white;
   padding: 11px;
   text-align: center;
-  width: 98%;
+  width: 100%;
   flex-grow: 1;
   margin: auto;
+
 }
 #goodfun-content h2 {
   font-family: sans-serif;
@@ -292,7 +297,6 @@ p {
   width:100%;
   margin: 0px;
   text-align: center;
-  font-size: 6em;
   color: #3986E5;
   font-family: 'Nanum Gothic Coding', monospace;
   font-weight: bold;
@@ -311,7 +315,7 @@ p {
 }
   #textbody{
     width: 375px;
-    height: 550px;
+    height: 610px;
     margin: auto;
     padding: 3px;
     align-self: auto;
@@ -327,15 +331,15 @@ p {
 
   #pic1 {
     width: 375px;
-    height: 550px;
+    height: 610px;
     margin: auto;
-    background-color: blue;
     align-self: auto;
     flex-grow: 1;
   }
   #pic1 img {
     right: 20%;
     position: relative;
+    z-index: -1;
   }
 
   #piccontainer {
@@ -344,7 +348,7 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 550px;
+    height: 610px;
     width: 375px;
     flex-grow: 1;
   }
@@ -352,7 +356,6 @@ p {
       width: 375px;
       height: 270px;
       margin: auto;
-      background-color: red;
       align-self: auto;
     }
 
@@ -360,7 +363,6 @@ p {
       width: 375px;
       height: 270px;
       margin: auto;
-      background-color: green;
       align-self: auto;
     }
       .tastingroom {
@@ -374,6 +376,13 @@ p {
          }
 #section5 {
 }
+  #section5 p {
+    text-align: center;
+    font-size: 2em;
+    color: red;
+    font-family: sans-serif;
+  }
+
 #section6 {
 
 }

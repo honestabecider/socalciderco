@@ -14,6 +14,11 @@ font-family: 'Sriracha', cursive;
 }
 #dynamic-menu div {
 	width: 400px;
+  margin: auto;
+  min-width: 50%;
+  flex-grow: 1;
+  padding-bottom: 15px;
+  display: flex;
 }
 #dynamic-menu .header {
 	width: 100%;
@@ -35,7 +40,8 @@ font-family: 'Sriracha', cursive;
 
 #dynamic-menu  table{
 	border-collapse: collapse;
-	margin-left:5px;
+	width: 400px;
+	margin: auto;
 	font-size: 1.5rem;
 }
 #dynamic-menu table th,
