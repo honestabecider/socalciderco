@@ -350,6 +350,7 @@ p {
     flex-wrap: wrap;
     height: 610px;
     width: 375px;
+    max-width: 100%
     flex-grow: 1;
   }
     #pic2 {
