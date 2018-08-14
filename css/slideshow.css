@@ -7,6 +7,11 @@
   position: relative;
   margin: auto;
 }
+  @media (max-width: 767px) {
+    .slideshow-container {
+      margin-top: 57px;
+    }
+  }
 
 /* Hide the images by default */
 .mySlides {
