@@ -62,6 +62,9 @@ img {
 	display: flex;
 	flex-wrap: wrap;
 }
+	#dynamic-menu div table td{
+
+	}
 #leftColumn {
 	width: 50%;
 	margin: auto;
