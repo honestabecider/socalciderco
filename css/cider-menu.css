@@ -84,7 +84,7 @@ table{
 	width: 100%;
 	border-collapse: collapse;
 	margin-left:5px;
-	font-size: 2.6rem;
+	font-size: 2.5rem;
 }
 table th,
 table td{
@@ -129,7 +129,10 @@ table h2 {
 .altrow{
 	background-color: rgba(50,50,50,0.6);
 }
-tr:nth-child(even) {
+tr:nth-child(4n+3) {
+    background-color: rgba(50,50,50,0.6);
+}
+tr:nth-child(4n+4) {
     background-color: rgba(50,50,50,0.6);
 }
 
