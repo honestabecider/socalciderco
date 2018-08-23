@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Patrick+Hand+SC|Sriracha|Walter+Turncoat');
 @import url('https://fonts.googleapis.com/css?family=Hanalei+Fill');
 
+@font-face {
+    font-family: 'penitentiary_gothic_fillRg';
+    src: url('penitentiarygothic-webfont.woff2') format('woff2'),
+         url('penitentiarygothic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Font Families
 font-family: 'Permanent Marker',cursive;
 font-family: 'Caveat Brush', cursive;
@@ -18,7 +26,8 @@ body {
 	overflow: hidden;
 	color: #FFFFFF;
 	font-size: 16px;
-	font-family: 'Nanum Gothic Coding', monospace;
+	font-family: 'penitentiary_gothic_fillRg', monospace;
+	text-transform: uppercase;
 
 }
 hr {
@@ -84,7 +93,7 @@ table{
 	width: 100%;
 	border-collapse: collapse;
 	margin-left:5px;
-	font-size: 2.5rem;
+	font-size: 2.1rem;
 }
 table th,
 table td{
@@ -93,7 +102,6 @@ table td{
 	vertical-align: top;
 }
 table tr {
-	height: 60px;
 }
 table th:first-child,
 table td:first-child{
@@ -105,6 +113,7 @@ table thead{
 	padding: 0px;
 	margin: auto;
 	font-size: 1.25em;
+	text-align: center;
 
 }
 table thead th{
@@ -112,6 +121,9 @@ table thead th{
 	font-size: .65em;
 	font-weight: bold;
 	vertical-align: top;
+}
+table thead tr td {
+	text-align: center;
 }
 
 
@@ -134,6 +146,9 @@ tr:nth-child(4n+3) {
 }
 tr:nth-child(4n+4) {
     background-color: rgba(50,50,50,0.6);
+}
+tr:nth-child(odd){
+
 }
 
 .table-divide {
