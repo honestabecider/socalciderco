@@ -133,8 +133,6 @@ table thead tr td {
 	text-align: center;
 }
 
-
-
 table h3 {
 	text-align: left;
 
@@ -143,7 +141,6 @@ table h3 {
 table h2 {
 	text-align: left;
 }
-
 
 .altrow{
 	background-color: rgba(153,153,153,.3);
@@ -157,8 +154,9 @@ tr:nth-child(4n+4) {
 tr:nth-child(even){
 	font-family: 'Nanum Gothic Coding', monospace;
 	text-transform: none;
-	margin-bottom: 3px
-
+}
+tr:nth-child(even) td {
+	padding-bottom: 10px;
 }
 
 .table-divide {
