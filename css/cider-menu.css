@@ -100,7 +100,7 @@ table{
 	width: 100%;
 	border-collapse: collapse;
 	margin-left:5px;
-	font-size: 2.6rem;
+	font-size: 2.45rem;
 }
 table th,
 table td{
@@ -157,6 +157,7 @@ tr:nth-child(4n+4) {
 tr:nth-child(even){
 	font-family: 'Nanum Gothic Coding', monospace;
 	text-transform: none;
+	margin-bottom: 3px
 
 }
 
