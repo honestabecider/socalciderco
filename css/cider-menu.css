@@ -30,6 +30,13 @@ body {
 	text-transform: uppercase;
 
 }
+#ytBG {
+      height: 110%;
+    width: 110%;
+    position: fixed;
+    right: -5%;
+    top: -5%;
+	}
 hr {
 	border: 0;
 	height: 1px;
@@ -114,6 +121,7 @@ table thead{
 	font-size: 4.1rem;
 	text-align: center;
 	color: darkorange;
+	text-decoration: underline;
 }
 table thead th{
 	min-height:35px;
@@ -146,7 +154,9 @@ tr:nth-child(4n+3) {
 tr:nth-child(4n+4) {
     background-color: rgba(153,153,153,.3);
 }
-tr:nth-child(odd){
+tr:nth-child(even){
+	font-family: 'Nanum Gothic Coding', monospace;
+	text-transform: none;
 
 }
 
