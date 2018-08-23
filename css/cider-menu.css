@@ -93,7 +93,7 @@ table{
 	width: 100%;
 	border-collapse: collapse;
 	margin-left:5px;
-	font-size: 2.1rem;
+	font-size: 2.3rem;
 }
 table th,
 table td{
@@ -109,12 +109,11 @@ table td:first-child{
 	width: 90%;
 }
 table thead{
-	background-color: rgba(153,153,153,.3);
 	padding: 0px;
 	margin: auto;
-	font-size: 1.25em;
+	font-size: 4.1rem;
 	text-align: center;
-
+	color: darkorange;
 }
 table thead th{
 	min-height:35px;
@@ -139,13 +138,13 @@ table h2 {
 
 
 .altrow{
-	background-color: rgba(50,50,50,0.6);
+	background-color: rgba(153,153,153,.3);
 }
 tr:nth-child(4n+3) {
-    background-color: rgba(50,50,50,0.6);
+    background-color: rgba(153,153,153,.3);
 }
 tr:nth-child(4n+4) {
-    background-color: rgba(50,50,50,0.6);
+    background-color: rgba(153,153,153,.3);
 }
 tr:nth-child(odd){
 
