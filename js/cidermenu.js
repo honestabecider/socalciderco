@@ -52,14 +52,14 @@ site = {
     //loop through each ciders
     for (var i=0; i<= left.length-1; i++){
 
-      var singleDrink='<tr> <td>' + left[i].fields.name + '</td> <td>' + left[i].fields.abv + '</td> </tr>';
+      var singleDrink='<tr> <td>' + left[i].fields.name + '</td> <td>' + left[i].fields.abv + '</td> </tr> <tr> <td colspan="2">' + left[i].fields.description + '</td> </tr>';
       leftMarkup = leftMarkup+singleDrink;
     }
     leftContainer.innerHTML = leftMarkup;
 
     for (var i=0; i<= right.length-1; i++){
 
-      var singleDrink='<tr> <td>' + right[i].fields.name + '</td> <td>' + right[i].fields.abv + '</td> </tr>';
+      var singleDrink='<tr> <td>' + right[i].fields.name + '</td> <td>' + right[i].fields.abv + '</td> </tr> <tr> <td colspan="2">' + right[i].fields.description + '</td> </tr>';
       rightMarkup = rightMarkup+singleDrink;
     }
     rightContainer.innerHTML = rightMarkup;
