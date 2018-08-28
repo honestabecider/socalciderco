@@ -312,6 +312,32 @@ p {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1124px) {
+  #textbody {
+      max-width: 47%;
+  }
+  #pic1{
+    max-width: 47%;
+  }
+  #piccontainer{
+    max-width: 100%;
+    display: none;
+  }
+}
+@media (min-width: 1125px){
+  #textbody {
+    max-width: 32%;
+  }
+  #pic1{
+    max-width: 32%;
+  }
+  #piccontainer{
+    max-width: 32%;
+    display: flex;
+  }
 }
   #textbody{
     width: 375px;
@@ -326,10 +352,11 @@ p {
     line-height: 1.25;
   }
     #textbody p {
-    margin: 12px auto;
+    margin: 12px 10px;
     }
-    #textbody a {
+    #textbody a:link, #textbody a:visited, #textbody a:active, #textbody a:hover {
       color: red;
+
     }
 
   #pic1 {
@@ -340,7 +367,7 @@ p {
     flex-grow: 1;
   }
   #pic1 img {
-    right: 20%;
+    left: -30%;
     position: relative;
     z-index: -1;
   }
@@ -348,12 +375,10 @@ p {
   #piccontainer {
     margin: auto;
     align-self: auto;
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: 610px;
     width: 375px;
-    max-width: 100%;
     flex-grow: 1;
   }
     #pic2 {
