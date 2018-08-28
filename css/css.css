@@ -328,6 +328,9 @@ p {
     #textbody p {
     margin: 12px auto;
     }
+    #textbody a {
+      color: red;
+    }
 
   #pic1 {
     width: 375px;
