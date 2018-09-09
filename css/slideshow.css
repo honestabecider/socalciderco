@@ -6,6 +6,7 @@
   width: 100%;
   position: relative;
   margin: auto;
+  background-color: coral;
 }
   @media (max-width: 767px) {
     .slideshow-container {
