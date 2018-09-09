@@ -139,6 +139,7 @@ p {
     margin: 0px auto;
     background-image: url(/images/sand.png);
     height: 58px;
+    z-index: 1000;
 }
 .stuck {
   position: fixed;
@@ -370,7 +371,7 @@ p {
     margin: auto;
     align-self: auto;
     flex-grow: 1;
-    z-index: 100;
+    z-index: 50;
   }
   #pic1 img {
     left: -30%;
