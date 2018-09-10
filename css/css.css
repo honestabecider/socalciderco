@@ -1,11 +1,31 @@
 body {
   margin: 0;
-  background-image: url(../images/water-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   box-shadow: inset 0 0 0 1000px rgba(153,200,200,0.1);
 }
+  @media (max-width:599px ){
+    body {
+      background-image: url(../images/waterbg-627x418.jpg);
+    }
+  }
+  @media (max-width:899px )and (min-width:600px ){
+    body {
+      background-image: url(../images/waterbg-941x629.jpg);
+    }
+  }
+  @media (max-width:1199px )and (min-width:900px ){
+    body {
+      background-image: url(../images/waterbg-1258x836.jpg);
+    }
+  }
+    @media (max-width:1800px )and (min-width:1200px ){
+      body {
+        background-image: url(../images/water-bg.jpg);
+      }
+  }
+
 
 
 a:link {color: #3986E5;
@@ -22,7 +42,8 @@ a:active {color: #3986E5;
   z-index: 99;
   font-size: 1.5em;
 }
-@media (max-width: 767px) {
+@media (max-width: 899px) {
+
   #navbar{
     position: fixed;
     top: -100%;
@@ -89,12 +110,9 @@ p {
   #section3{
     font-size: 5em;
   }
-  #section4{
-    background-position: center;
-    background-size: 1000px
-  }
+
 }
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   #header {
     display: flex;
     justify-content: space-around;
@@ -116,10 +134,7 @@ p {
   #section3{
     font-size: 6em;
   }
-  #section4{
-    background-position: center;
-    background-size: 2000px
-  }
+
 }
 #vBGContainer {
   width: 100%;
@@ -321,26 +336,39 @@ p {
   justify-content: space-evenly;
 }
 
-@media (max-width: 1124px) {
+@media (max-width:599px) {
+  #textbody {
+    max-width: 98%;
+  }
+  #pic1 {
+    display: none;
+  }
+  #piccontainer {
+    max-width: 100%;
+    display: flex;
+  }
+}
+
+@media (min-width:600px) and (max-width: 1199px) {
   #textbody {
       max-width: 47%;
   }
-  #pic1{
+  #pic1 {
     max-width: 47%;
   }
-  #piccontainer{
+  #piccontainer {
     max-width: 100%;
     display: none;
   }
 }
-@media (min-width: 1125px){
+@media (min-width: 1200px){
   #textbody {
     max-width: 32%;
   }
-  #pic1{
+  #pic1 {
     max-width: 32%;
   }
-  #piccontainer{
+  #piccontainer {
     max-width: 32%;
     display: flex;
   }
