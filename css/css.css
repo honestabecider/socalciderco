@@ -8,17 +8,17 @@ body {
 
   @media (max-width:899px ){
     body {
-      background-image: url(../images/waterbg-941x629.jpg);
+      background-image: url(../images/waterbg-940.jpg);
     }
   }
     @media (max-width:1799px )and (min-width:900px ){
       body {
-        background-image: url(../images/waterbg-1258x836.jpg);
+        background-image: url(../images/waterbg-1250.jpg);
       }
   }
   @media(min-width:1800px){
     body {
-      background-image: url(../images/water-bg.jpg);
+      background-image: url(../images/waterbg-1800.jpg);
     }
 }
 
