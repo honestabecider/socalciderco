@@ -8,7 +8,8 @@ body {
    @media (max-width:899px ){
     body {
       background-image: url(../images/waterbg-940.jpg);
-      background-size: cover;
+      background-attachment: fixed;
+      height: 100%;
     }
   }
     @media (max-width:1799px )and (min-width:900px ){
