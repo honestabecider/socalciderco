@@ -106,7 +106,7 @@ img {
 	1px 1px 0 #000;
 }
   #pricesMenu #price-container td{
-    color: darkorange;
+    color: #FFFFFF;
   }
 
 table{
@@ -133,7 +133,7 @@ table thead{
 	margin: auto;
 	font-size: 2.5rem;
 	text-align: center;
-	color: darkorange;
+	color: #FFFFFF;
 	text-decoration: underline;
   text-shadow:
    -1px -1px 0 #000,
