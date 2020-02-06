@@ -75,9 +75,7 @@ table td{
 	text-align: left;
 	vertical-align: top;
 }
-table tr {
-	height: 60px;
-}
+
 table th:first-child,
 table td:first-child{
 	border-left: none;
