@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Patrick+Hand+SC|Sriracha|Walter+Turncoat');
+@font-face {
+    font-family: 'penitentiary_gothic_fillRg';
+    src: url('penitentiarygothic-webfont.woff2') format('woff2'),
+         url('penitentiarygothic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nanum Gothic Coding';
+    src: url('NanumGothicCoding-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Font Families
 font-family: 'Permanent Marker',cursive;
@@ -15,7 +28,7 @@ body {
 	background-size: cover;
 	color: #FFFFFF;
 	font-size: 16px;
-	font-family: 'Walter Turncoat',cursive;
+	font-family: 'penitentiary_gothic_fillRg', monospace;
 	/* margin-top: 75px;
 	margin-left: -35px;
 	width: 800px;
