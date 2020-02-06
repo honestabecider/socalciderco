@@ -41,25 +41,6 @@ h1 {
 	opacity:1;
 }
 
-h2 {
-	margin: 0;
-	color: #dcdcdc;
-	font-weight: normal;
-	font-size: 1.2em;
-	-webkit-margin-before: 0px;
-	-webkit-margin-after: 0px;
-}
-
-h3 {
-	margin: 0;
-	color: #dcdcdc;
-	font-weight: normal;
-	font-size: .8em;
-	-webkit-margin-before: 5px;
-	-webkit-margin-after: 5px;
-}
-
-
 img {
 	margin-left: auto;
 	margin-right: auto;
@@ -72,14 +53,7 @@ img {
 	margin-bottom: 10px;
 	padding-top: 15px;
 }
-.HeaderLeft {
-	width: 20%;
-	height: 100px;
-	float: left;
-	font-size: .85em;
-	font-weight: bold;
-	text-align: left;
-}
+
 .HeaderCenter {
 	width: 100%;
 	height: 50px;
@@ -88,18 +62,12 @@ img {
 	vertical-align: middle;
 	padding-top:1px;
 }
-.HeaderRight {
-	display: none;
-	width: 0%;
-	float: right;
-	font-size: .85em;
-	font-weight: bold;
-	text-align: right;
-}
+
 table{
 	width: 100%;
 	border-collapse: collapse;
 	margin-left:5px;
+	font-size: 1.5rem;
 }
 table th,
 table td{
@@ -119,12 +87,10 @@ table thead{
 	background-color: rgba(153,153,153,.3);
 	padding: 0px;
 	margin: auto;
-	font-size: 1.5em;
 
 }
 table thead th{
 	min-height:35px;
-	font-size: 1.5em;
 	font-weight: bold;
 	vertical-align: top;
 }
